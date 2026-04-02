@@ -1,12 +1,17 @@
 #include <iostream>
+#include <string>
 
-using namespace std;
-
+//Main function
 int main()
 {
-    string name;
-    cout << "Enter yout name: ";
-    cin >> name;
-    cout << "Hello world from " << name << endl;
-    return 0;
+//User name
+std::string name;
+
+// Request for name
+std::cout << "Enter your name: ";
+std::cin >> name;
+
+// Output greeting
+std::cout << "Hello world from " << name << std::endl;
+return 0;
 }
